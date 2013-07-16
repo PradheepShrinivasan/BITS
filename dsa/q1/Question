@@ -106,17 +106,3 @@ Tasks to perform:
 described above [4+3+4= 11 M]
 2. Implement the driver file, and give instructions on how to compile and execute
 your code and store the results in output file. [4 M]
-Problem 2
-Generate a hashtable for storing the Phone book data having the tuples (Name, phone
-number, mail id).
-For the initial hash, you may use the hash function defined as (sum of ASCII values of all
-the characters in the name field ) modulo m, where m is the size of your hashtable.
-Compare the performance of the hashtable if
-a) separate chaining is used,
-b) open addressing with linear probing is used,
-c) open addressing with quadratic probing is used.
-You must use the same data set for all three techniques, clearly indicating the maximum
-and average number of accesses required to add/find an element in the hashtable.
-Please use a sufficiently large data set (randomly generated) to test in this code.
-The results that you observed must be provided in the README file in the directory.
-[3*3+4=13 M]
