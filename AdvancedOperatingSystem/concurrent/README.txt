@@ -30,9 +30,8 @@ Follow the onscreen guidelines, and press the necessary commands to perform the 
 
 Additional comments
 --------------------
-	A concurrent server services several requests at the same time. Hence there should be mutual exclusion to prevent 
-	more than one thread modidying the data at the same time. In the code attached read write locks are used. This helps
-	increase the number of readers at the same time, therby increasing the performance compared to mutexs
+	A concurrent server services several requests at the same time. Hence there should be mutual exclusion to prevent more than one thread modifying the data at the same time.
+	In the code attached read write locks are used. This helps to increase the number of readers at the same time, therby increasing the performance compared to mutexs
 
 
 Contact Details
